@@ -7,23 +7,23 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
   {
-    enunciado: "Pergunta 1",
-    alternativas: ["Alternativa 1", "Alternativa 2"],
+    enunciado: "qual é o maior time do mundo ",
+    alternativas: ["real madrid ", " Barcelona"],
   },
   {
-    enunciado: "Pergunta 2",
-    alternativas: ["Alternativa 1", "Alternativa 2"],
+    enunciado: "qual é o jogor mais bonito",
+    alternativas: ["Cristiano Ronaldo", "neymar Jr"],
   },
   {
-    enunciado: "Pergunta 3",
-    alternativas: ["Alternativa 1", "Alternativa 2"],
+    enunciado: "qual é os maiores dribladores da historia do futebol",
+    alternativas: ["Ronaldinho", "neymar "],
   },
   {
-    enunciado: "Pergunta 4",
-    alternativas: ["Alternativa 1", "Alternativa 2"],
+    enunciado: "quem são os jogadores mais completos",
+    alternativas: ["Messi", "Cr7"],
   },
   {
-    enunciado: "Pergunta 5",
-    alternativas: ["Alternativa 1", "Alternativa 2"],
+    enunciado: "qual é melhor finalizador da historia",
+    alternativas: ["Robozão", " Caça Rato "],
   },
 ];
