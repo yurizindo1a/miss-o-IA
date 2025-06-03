@@ -75,8 +75,9 @@ const perguntas = [
 ]
 
 let atual = 0;
-let perguntaAtual,
-let historiaFinal
+let perguntaAtual;
+let historiaFinal = "";
+
 function mostraPergunta() {
   perguntaAtual = perguntas[atual];
   caixaPerguntas.textContent = perguntaAtual.enunciado;
@@ -88,7 +89,9 @@ for (const alternativa of perguntaAtual.alternativas) {
   botaoAlternativas.textContent = alternativa. texto;
   botaoAlternativas.addEventListener("click", () => respostaSelecionada
   caixaAlternativas.appendChild(botaoAlternativas);
-  }
+ 
+}
+
 
 function respostaSelecionada(opcaoSelecionada) {
   const afirmacoes = opcaoSelecionada.afirmacoes;
